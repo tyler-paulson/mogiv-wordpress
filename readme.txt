@@ -31,11 +31,11 @@ Not a Mogiv customer? [Sign up](https://www.mogiv.com/start/) today!
 
 = What parameters are available? =
 
-Visit your [Mogiv Dashboard](https://dev-tyler.mogiv.com/npo/training/embed) to view a list of all available parameters.
+Visit your [Mogiv Dashboard](https://app.mogiv.com/npo/training/embed) to view a list of all available parameters.
 
 = What is my OID? =
 
-Visit your [Mogiv Dashboard](https://dev-tyler.mogiv.com/npo/training/embed) to view a sample shortcode with your OID that you can copy and paste.
+Visit your [Mogiv Dashboard](https://app.mogiv.com/npo/training/embed) to view a sample shortcode with your OID that you can copy and paste.
 
 == Changelog ==
 
