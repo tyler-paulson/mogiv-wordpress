@@ -1,0 +1,29 @@
+#mogiv-btn {
+  display: inline-block;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 1em;
+  margin: .75em .5em .75em 0;
+  baseline-shift: sub;
+  line-height: 1.5em;
+  background: #A5CD39;
+  color: #2D2E33;
+  transition: background-color .25s, color .25s;
+}
+
+#mogiv-btn:focus {
+  outline: 0;
+  box-shadow: .25em .25em 0 #5d5f69;
+}
+
+#mogiv-btn:hover {
+	background: #2D2E33;
+	color: white;
+}
+
+#mogiv-btn.mogiv-btn_reversed:hover {
+  background: white;
+	color: #2D2E33;
+}
