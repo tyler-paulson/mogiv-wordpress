@@ -48,7 +48,7 @@
     // http://stackoverflow.com/a/19525082/3333967
     o.seal = o.hasOwnProperty('seal') ? o.seal : 1;
     o.button = o.hasOwnProperty('button') ? o.button : 0;
-    o.buttonCSS = o.hasOwnProperty('buttonCSS') ? o.buttonCSS : 'http://dev.tylerpaulson.com/mogiv/embed-js.css';
+    o.buttonCSS = o.hasOwnProperty('buttonCSS') ? o.buttonCSS : 'https://app.mogiv.com/css/v2/iframe/embed-js.css';
     o.dark = o.hasOwnProperty('dark') ? o.dark : 0;
 
     // Setup qs variable, this option will make migrating old customers more straigtforward
@@ -94,7 +94,7 @@
       // Create a element
       var button = d.createElement('a');
       button.id = 'mogiv-btn';
-      button.href = 'https://dev-tyler.mogiv.com/give/?'+toQS(o)+qs;
+      button.href = 'https://app.mogiv.com/give/?'+toQS(o)+qs;
       button.textContent = 'Give Now';
       if(o.dark === 1) {
         button.classList.add('mogiv-btn_reversed');
@@ -111,7 +111,7 @@
       // Create iframe element
       var iframe = d.createElement('iframe');
       iframe.id = 'mogiv-iframe';
-      iframe.src = 'https://dev-tyler.mogiv.com/give/?'+toQS(o)+qs;
+      iframe.src = 'https://app.mogiv.com/give/?'+toQS(o)+qs;
       iframe.scrolling = "no";
       wrap.appendChild(iframe);
 
@@ -119,7 +119,7 @@
       var iframes;
       var resizerOptions = {
         log: true,
-        checkOrigin: ["https://dev-tyler.mogiv.com"]
+        checkOrigin: ["https://app.mogiv.com"]
       };
       resizerOptions.heightCalculationMethod = (o.seal != 0) ? 'documentElementOffset' : 'bodyOffset';
 
