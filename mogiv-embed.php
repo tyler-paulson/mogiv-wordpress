@@ -4,7 +4,7 @@
 Plugin Name: Mogiv <iframe>
 Plugin URI:  https://www.mogiv.com
 Description: Embed your organization&#39;s Mogiv &#60;iframe&#62;
-Version:     0.1.0
+Version:     1.0.0
 Author:      Mogiv
 Author URI:  https://www.mogiv.com
 License:     GPLv2 or later

@@ -39,5 +39,5 @@ Visit your [Mogiv Dashboard](https://app.mogiv.com/npo/training/embed) to view a
 
 == Changelog ==
 
-= 1.0 =
+= 1.0.0 =
 * Our initial release! Enables a [mogiv] shortcode that supports all of Mogiv's available customizations.
